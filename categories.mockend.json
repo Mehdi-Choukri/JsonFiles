@@ -1,0 +1,64 @@
+{
+  "_embedded" : {
+    "categories" : [ {
+      "name" : "Cosmetics",
+      "image" : "img",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8081/categories/1"
+        },
+        "categorie" : {
+          "href" : "http://localhost:8081/categories/1"
+        },
+        "produits" : {
+          "href" : "http://localhost:8081/categories/1/produits"
+        }
+      }
+    }, {
+      "name" : "Sport",
+      "image" : "img",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8081/categories/2"
+        },
+        "categorie" : {
+          "href" : "http://localhost:8081/categories/2"
+        },
+        "produits" : {
+          "href" : "http://localhost:8081/categories/2/produits"
+        }
+      }
+    }, {
+      "name" : "Electronics",
+      "image" : "img",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8081/categories/3"
+        },
+        "categorie" : {
+          "href" : "http://localhost:8081/categories/3"
+        },
+        "produits" : {
+          "href" : "http://localhost:8081/categories/3/produits"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8081/categories"
+    },
+    "profile" : {
+      "href" : "http://localhost:8081/profile/categories"
+    },
+    "search" : {
+      "href" : "http://localhost:8081/categories/search"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 3,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
